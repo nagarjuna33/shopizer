@@ -5,7 +5,7 @@ stages {
     stage('scm') {
         steps {
             git url:'https://github.com/nagarjunaduggireddy/shopizer.git',
-                branch: 'developer'
+                branch: 'release'
         }
     }
     stage ('Archive JUnit test') {
